@@ -1,0 +1,78 @@
+body {
+    background-color: #21618c;
+}
+
+.tituloForm h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #CAE5FD;
+}
+
+form {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    background-color:#3498db;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+
+#usuario{
+    width: 80%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 2px;
+    text-indent: 10px;
+}
+
+#contraseña {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    text-indent: 10px;
+}
+
+#login{
+    width: 80%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    background-color: #CAE5FD;
+}
+
+p{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #CAE5FD;
+    margin-right: 3px;
+}
+
+.volver{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#CAE5FD;
+}
+
+input {
+    border: none;
+}
+
+::placeholder{
+    color: #292626f0;
+    font-weight: 800;
+}
