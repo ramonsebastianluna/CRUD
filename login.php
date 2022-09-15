@@ -23,5 +23,8 @@
     <div class="volver">
         <a href="index.php">Volver</a>
     </div>
+    <script>
+        alert("Para iniciar sesión ingrese el usuario: admin y la contraseña: admin");
+    </script>
 </body>
 </html>
