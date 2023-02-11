@@ -6,7 +6,7 @@ $apellido = $_POST['apellido'];
 $direccion = $_POST['direccion'];
 
 
-$insertar = "insert into usuarios (nombre, apellido, direccion) VALUES ('$nombre', '$apellido', '$direccion')";
+$insertar = "INSERT INTO usuarios (nombre, apellido, direccion) VALUES ('$nombre', '$apellido', '$direccion')";
 
 $conexion -> query($insertar);
 
