@@ -11,6 +11,6 @@ $insertar = "INSERT INTO usuarios (nombre, apellido, direccion) VALUES ('$nombre
 $conexion -> query($insertar);
 
 echo "<html><head><script>alert('Usuario creado correctamente');</script></head></html>";
-echo "<meta http-equiv='refresh' content='0; url=crear.php'>";
+echo "<meta http-equiv='refresh' content='0; url=../crear.php'>";
 
 ?>

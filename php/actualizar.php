@@ -11,6 +11,6 @@ $actualizar = "UPDATE `usuarios` SET `nombre` = '$nombre', `apellido` = '$apelli
 
 $conexion -> query($actualizar);
 
-header("Location: ver.php")
+header("Location: ../ver.php")
 
 ?>

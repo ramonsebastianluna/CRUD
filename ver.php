@@ -23,12 +23,12 @@
             <li>
 			    <a href="home.html">Inicio</a>
 		    </li>
-	</ul>
+	    </ul>
     </nav>
     <main>
         <?php
 
-            include ('conex.php');
+            include ('php/conex.php');
 
             $consulta="SELECT *from usuarios";
             $result=$conexion->query($consulta); 
@@ -51,7 +51,7 @@
                 echo "<td>"; echo $filas['apellido']; echo "</td>";
                 echo "<td>"; echo $filas['direccion']; echo "</td>";		       
                 echo "<td>"; echo "<button type='button'> <a href='editar.php?id=" . $filas['id'] . "'>Editar</a></button>"; echo "</td>";
-                echo "<td>"; echo "<button type='button'> <a href='borrar.php?id=" . $filas['id'] . "'>Borrar</a></button>"; echo "</td>";
+                echo "<td>"; echo "<button type='button'> <a href='php/borrar.php?id=" . $filas['id'] . "'>Borrar</a></button>"; echo "</td>";
 
                 echo "</tr>";
             }

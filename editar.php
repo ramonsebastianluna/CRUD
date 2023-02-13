@@ -27,7 +27,7 @@
     </nav>
     <main>
         <?php
-            include 'conex.php';
+            include 'php/conex.php';
            
             if (isset($_GET["id"])) {
 	            $id=$_GET["id"];
@@ -37,7 +37,7 @@
                 $valores = mysqli_fetch_array($result);
             }
         ?>
-        <form method="POST" action="actualizar.php">
+        <form method="POST" action="php/actualizar.php">
             <div class="tituloForm">
                 <h1>Editar datos</h1>
             </div>

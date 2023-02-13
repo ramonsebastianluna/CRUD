@@ -8,6 +8,6 @@ if (isset($_GET["id"])) {
     $conexion->query($consulta);
 }
 
-header("Location: ver.php");
+header("Location: ../ver.php");
 
 ?>

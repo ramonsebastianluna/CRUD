@@ -26,7 +26,7 @@
 	    </ul>
     </nav>
     <main>
-        <form method="POST" action="insert.php">
+        <form method="POST" action="php/insert.php">
             <div class="tituloForm">
                 <h1>Crear usuario</h1>
             </div>
@@ -40,7 +40,7 @@
             <br>
         </form>
         <div class="volver">
-            <a href="home.php">Volver</a>
+            <a href="home.html">Volver</a>
         </div>
     </main>
     <footer>
