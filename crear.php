@@ -31,13 +31,9 @@
                 <h1>Crear usuario</h1>
             </div>
             <input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre" required>
-            <br>
             <input id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido" required>
-            <br>
             <input id="direccion" type="text" name="direccion" placeholder="Ingrese su dirección" required>
-            <br>
             <input id="guardar" type="submit" name="Guardar" value="Guardar";>
-            <br>
         </form>
         <div class="volver">
             <a href="home.html">Volver</a>
