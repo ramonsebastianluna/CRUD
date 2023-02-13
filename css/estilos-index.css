@@ -28,12 +28,6 @@ main div {
     text-align: center;
 }
 
-@media only screen and (max-width: 495px) {
-    main {
-        min-height: calc(100vh - 147px);
-    }
-}
-
 div h1 {
     font-family: 'Open Sans', sans-serif;
     color: #CAE5FD;
@@ -63,4 +57,10 @@ footer p {
 
 p a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 495px) {
+    main {
+        min-height: calc(100vh - 147px);
+    }
 }
